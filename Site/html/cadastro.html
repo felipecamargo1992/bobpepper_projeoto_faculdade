@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bob Pepper</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style1.css" />
+    <script src="../js/validacoes.js"></script>
+    <link rel="icon" href="../img/logo.png" type="imagem-x/icon">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div>
+                <img class="titulo" src="../img/logo.png" width="80px">
+                <h1 class="titulo"><span>Bob</span> Pepper</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="financeiro.html">Serviço</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="formulario">
+        <div class="container">
+            <form>
+                <h1 class="container-form">Cadastro de Usuários</h1> <br>
+
+                <hr>
+
+                <div class="leftbox">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="nome">Nome <span class="required">*</span></label>
+                            <input type="text" name="nome" class="field-divided" placeholder="Nome" required />
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="middlebox">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="snome">Sobrenome <span class="required">*</span></label>
+                            <input type="text" name="snome" class="field-divided" placeholder="Sobrenome" required />
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="rightbox">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="cpf">CPF <span class="required">*</span></label>
+                            <input type="text" name="cpf" class="field-divided" placeholder="CPF" required />
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="leftbox">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="sexo">Sexo <span class="required">*</span></label>
+                            <input type="radio" id="sexo" value="f" name="sexo" required> Feminino
+                            <input type="radio" id="sexo" value="m" name="sexo" required> Masculino
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="middlebox">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="telefone">Telefone fixo <span class="required">*</span></label>
+                            <input id="telefone" class="field-divided" type="number" placeholder="Telefone" required>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="rightbox">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="celular">Celular <span class="required">*</span></label>
+                            <input id="celular" class="field-divided" type="number" placeholder="Celular" required>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="leftbox">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="dtnasc">Data de Nascimento <span class="required">*</span></label>
+                            <input id="dtnasc" class="field-divided" type="date" placeholder="dd/mm/aaa" required>
+                        </li>
+                    </ul>
+                </div>
+
+                <hr>
+
+                <div class="leftbox-tiny">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="cep_end">CEP <span class="required">*</span></label>
+                            <input type="number" class="tiny-field" id="cep_end" placeholder="00000-000" required>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="middlebox-large">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="endereco">Endereço <span class="required">*</span></label>
+                            <input type="text" class="endereco-style" id="endereco" placeholder="Endereço" required>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="leftbox-tiny">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="numero_end">Número <span class="required">*</span></label>
+                            <input type="number" class="tiny-field" id="numero_end" placeholder="Número" required>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="leftbox">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="complemento_end">Complemento <span class="required">*</span></label>
+                            <input type="text" class="field-divided" id="complemento_end" placeholder="Bloco, casa A, etc" required>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="middlebox">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="bairro_end">Bairro <span class="required">*</span></label>
+                            <input type="text" class="field-divided" id="bairro_end" placeholder="Bairro" required>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="rightbox">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="cidade_end">Cidade <span class="required">*</span></label>
+                            <input type="text" class="field-divided" id="cidade_end" placeholder="Cidade" required>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="leftbox">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="estado_end">Estado <span class="required">*</span></label>
+                            <select id="estado_end" class="field-divided" required>
+                                <option selected disabled value="">Escolha um estado...</option>
+                                <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AM">AM</option>
+                                <option value="AP">AP</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MT">MT</option>
+                                <option value="MS">MS</option>
+                                <option value="MG">MG</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SP">SP</option>
+                                <option value="SE">SE</option>
+                                <option value="TO">TO</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+
+                <hr>
+
+                <div class="large-field">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" name="email" class="large-field" placeholder="exemplo@bobpepper.com" required />
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="large-field">
+                    <ul class="form-style-1">
+                        <li>
+                            <label for="senha">Senha <span class="required">*</span></label>
+                            <input type="password" name="senha" class="large-field" placeholder="Senha" required />
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="btn-enviar">
+                    <button class="btn first">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright © 2020 | OportunnIT</p>
+    </div>
+</body>
+
+</html>

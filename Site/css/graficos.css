@@ -1,0 +1,52 @@
+.alertas{
+
+    width: 45%;
+    height: 300px;
+    background-color: rgb(255, 217, 147);
+    float: left;
+    margin: 30px 10px;
+    margin-left: -10%;
+    border-bottom: orange 5px solid;
+    text-align: justify;
+    padding: 10px 20px;
+  
+  }
+  
+  .temperatura_e_alerta{
+  
+    width: 45%;
+    height: 100px;
+    background-color: rgb(255, 217, 147);
+    margin: 30px 10px;
+    margin-left: -10%;
+    border-bottom: orange 5px solid;
+    text-align: justify;
+    padding: 10px 20px;
+  
+  }
+  
+  .grafico_principal{
+  
+      width: 60%;
+      height: 485px;
+      background-color: rgb(255, 217, 147);
+      float: right;
+      margin-top: -15.8%;
+      margin-bottom: 5%;
+      margin-right: -10%;
+      border-bottom: orange 5px solid;
+      text-align: justify;
+      padding: 10px 20px;
+    
+  }
+
+  .texto_alerta{
+
+    font-size: larger;
+    text-align: center;
+
+  }
+
+  .container h1{
+  color: black;
+  }
